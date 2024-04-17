@@ -1,0 +1,55 @@
+@import '../../scss/App.scss'; //common import on every component
+
+.registration__page{
+    .shopping__alert{
+        background-color:$primary_bgClr;
+        padding: 1.2rem 0;
+        p{
+            font-family: $primary-font__700;
+            font-size: 1.6rem; 
+            line-height: 2rem;
+            text-align: center;
+            margin: 0;
+            color: $white-clr;
+            letter-spacing: 1px;
+        }
+        span{
+            font-family: $primary-font__500;
+        }
+        .link{
+            text-decoration: underline;
+            color: $white-clr;
+            cursor: pointer;
+        }
+    }
+
+    .brand-name{
+        font-family: $primary-font__700;
+        font-size: 3rem;
+        line-height: 4.5rem;
+        letter-spacing: 1px;
+        color: $primary_Clr;
+        text-transform: capitalize;
+        margin: 1.6rem 0;
+        span{
+            text-transform: uppercase;
+        }
+    }
+
+    .imageWrapper{
+        img{
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+    }
+
+    .authImage{
+        max-width: 36rem;
+        margin-left: auto;
+    }
+
+    &-interface{
+        margin-bottom: 3.6rem;
+    }
+}

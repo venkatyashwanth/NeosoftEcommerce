@@ -1,0 +1,83 @@
+@import '../../scss/App.scss'; //common import on every component
+
+
+.login-form{
+    padding: 6.2rem 4rem;
+    box-shadow: 0 0 1.5rem 2px rgba(#000, 6%);
+    width: 45rem;
+    margin: 0 auto;
+    @media screen and (max-width: 480px){
+        width: 30rem;
+    }
+    .form-heading{
+        font-family: $primary-font__700;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2.4rem;
+        line-height: 2.3rem;
+        color: $primary_Clr;
+    }
+    .form-content{
+        margin-top: 7.6rem;
+        .input-labels{
+            font-family: $primary-font__700;
+            font-size: 1.4rem;
+            line-height: 1.35rem;
+            color: $dark-clr;
+            margin-bottom: 1.2rem;
+        }   
+        .input-control{
+            font-family: $primary-font__400;
+            font-size: 1.4rem;
+            line-height: 2rem;
+            padding: 1.4rem 1.5rem;
+            border-radius: 6px;
+        }
+        .reset-link{
+            display: flex;
+            justify-content: flex-end;
+            span{
+                font-family: $primary-font__400;
+                color: $dark-clr-secondary;
+                font-size: 1.2rem;
+                line-height: 1.4rem;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+        .sbmtCont{
+            padding-top: 5rem;
+            padding-bottom: 4rem;
+        }
+        .submit-button{
+            font-family: $primary-font__500;
+            font-size: 1.4rem;
+            line-height: 1.6rem;
+            background-color: $primary_bgClr;
+            border: 0;
+            color: $white-clr;
+            padding: 1rem 0;
+            width: 80%;
+        }
+        .signup-link{
+            text-align: center;
+            p{
+                font-family: $primary-font__400;
+                font-size: 1.4rem;
+                line-height: 1.68rem;
+                color: $dark-clr-teritary;
+            }
+            span{
+                font-family: $primary-font__500;
+                font-size: 1.6rem;
+                line-height: 1.92rem;
+                color: inherit;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+    }
+    .form-group:not(:last-child){
+        margin-bottom: 1.6rem;
+    }
+}
