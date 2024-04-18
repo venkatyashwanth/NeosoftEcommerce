@@ -8,6 +8,13 @@
   @media screen and (max-width: 480px) {
     width: 30rem;
   }
+  .signUpConfirmation{
+    background-color: green;
+    color: white;
+    position: absolute; 
+    top: "50%"; 
+    left:"50%";
+}
   .form-heading {
     font-family: $primary-font__700;
     text-align: center;
@@ -62,13 +69,17 @@
         cursor: pointer;
       }
     }
+    .form-error {
+      font-family: $primary-font__400;
+      font-size: 1.4rem;
+      color: red;
+      padding: 0.5rem 0;
+    }
   }
   .form-group:not(:last-child) {
     margin-bottom: 1.4rem;
   }
   .tnc-agreement {
-    display: flex;
-    align-items: center;
     input {
       padding: 0;
       height: initial;

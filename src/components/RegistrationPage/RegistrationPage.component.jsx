@@ -10,7 +10,7 @@ function RegistrationPage() {
   const [action, setAction] = useState(true);
 
   const handlePageChange = () => {
-    setAction(prevAction => !prevAction)
+    setAction((prevAction) => !prevAction);
   };
 
   return (
@@ -18,7 +18,7 @@ function RegistrationPage() {
       <section className="registration__page">
         <div className="shopping__alert">
           <p>
-            MARKDOWNS:{" "}
+            MARKDOWNS:
             <span>
               UP TO 70% OFF <span className="link">SHOP NOW</span>
             </span>

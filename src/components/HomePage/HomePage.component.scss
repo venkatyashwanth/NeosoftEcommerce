@@ -1,0 +1,23 @@
+@import '../../scss/App.scss'; //common import on every component
+
+.shopping__alert{
+    background-color:$primary_bgClr;
+    padding: 1.2rem 0;
+    p{
+        font-family: $primary-font__700;
+        font-size: 1.6rem; 
+        line-height: 2rem;
+        text-align: center;
+        margin: 0;
+        color: $white-clr;
+        letter-spacing: 1px;
+    }
+    span{
+        font-family: $primary-font__500;
+    }
+    .link{
+        text-decoration: underline;
+        color: $white-clr;
+        cursor: pointer;
+    }
+}
