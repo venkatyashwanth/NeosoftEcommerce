@@ -1,9 +1,11 @@
 @import "./fonts.scss";
 // Fonts
 // Gotham-Book
+$primary-font__300: Gotham-Light__300;
 $primary-font__400: Gotham-Book__400;
 $primary-font__500: Gotham-Medium__500;
 $primary-font__700: Gotham-Bold__700;
+
 
 //Font-colors: 
 $white-clr: #fff;
@@ -11,8 +13,12 @@ $dark-clr: #666666;
 $dark-clr-secondary: #585858;
 $dark-clr-teritary: #4F4F4F;
 $dark-clr-quarternary:#706A6A;
+$dark-clr-quinary: #282627;
+$dark-clr-sentinary:#EDEDED;
+$dark-clr-quad:#111111;
 
 $primary_Clr:#BB0100;
 
 // Background-colors: 
 $primary_bgClr:#BB0100;
+

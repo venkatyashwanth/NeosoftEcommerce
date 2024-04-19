@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState} from "react";
+import { useNavigate } from "react-router-dom";
 import "./RegistrationPage.component.scss";
 import LoginPage from "../LoginPage/LoginPage.component";
 import SignUpPage from "../SignUpPage/SignUpPage.component";
@@ -8,6 +9,7 @@ import twoFactorImg from "./images/two-factor-authentication.png";
 
 function RegistrationPage() {
   const [action, setAction] = useState(true);
+  const navigate = useNavigate();
 
   const handlePageChange = () => {
     setAction((prevAction) => !prevAction);
@@ -27,7 +29,13 @@ function RegistrationPage() {
         <div className="registration__page-interface">
           <div className="container">
             <div className="row">
-              <h2 className="brand-name">
+              <h2
+              onClick={
+                () => {
+                  navigate("/");
+                }
+              }
+              className="brand-name">
                 neo<span>store</span>
               </h2>
               <div className=" d-none d-lg-flex flex-lg-column justify-content-center col-lg-6">

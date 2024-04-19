@@ -1,6 +1,8 @@
 import React from "react";
 import "./HomePage.component.scss";
 import NavigationPage from "../NavigationPage/NavigationPage.component";
+import ProductCarousel from "../ProductCarousel/ProductCarousel.component";
+
 
 function HomePage() {
   return (
@@ -15,6 +17,9 @@ function HomePage() {
           </p>
         </div>
         <NavigationPage />
+      </div>
+      <div>
+        <ProductCarousel/>
       </div>
     </>
   );

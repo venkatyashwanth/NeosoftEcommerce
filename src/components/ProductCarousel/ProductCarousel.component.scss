@@ -1,0 +1,60 @@
+@import "../../scss/App.scss"; //common import on every component
+
+.slider-content {
+  background-image: url("../../../public/assets/images/FurnishingImage.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  //   height: 100vh;
+  font-family: $primary-font__400;
+  color: $dark-clr-quad;
+  padding: 0 10rem;
+  padding-top: 15rem;
+  .slider-title {
+    font-family: $primary-font__400;
+    color: $dark-clr-quad;
+    font-size: 4rem;
+    line-height: 4.8rem;
+    border-left: 4px solid $dark-clr-quad;
+    padding-left: 1.6rem;
+    span {
+      display: block;
+    }
+  }
+
+  .slider-text {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    padding: 3.8rem 0 5.8rem;
+  }
+  h2 {
+    font-family: $primary-font__300;
+    font-size: 7rem;
+    font-weight: 300;
+    line-height: 8.4rem;
+    text-align: left;
+    text-transform: uppercase;
+    span {
+      display: block;
+    }
+
+   
+  }
+  .shop-now-btn {
+    width: 14.5rem;
+    height: 3.6rem;
+    top: 71.2rem;
+    left: 10rem;
+    padding: 1rem 3.7rem 1rem 3.7rem;
+    border: 0;
+    border-radius: 0.2rem;
+    background-color: $primary_bgClr;
+    color: $white-clr;
+    padding: 1rem;
+    line-height: 1.6rem;
+    font-size: 1.4rem;
+    margin: 5.6rem 0 18rem;
+    font-family: $primary-font__500;
+  }
+}
